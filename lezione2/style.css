@@ -1,0 +1,26 @@
+
+
+body {
+   background-color: #025464;
+}
+
+
+.navbar {
+    color: #FFB84C;
+}
+
+#general {
+    color: #FC4F00;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+#image_3{
+    border: 2px dotted yellow;
+}
+
+.main_images {
+    border: 2px solid red;
+}

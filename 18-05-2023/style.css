@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Noto+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #182b3a;
+background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+padding: 20px;
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+.navbar{
+    padding: 20px 50px 20px 50px;
+    border-radius: 24px;
+    background-color: rgb(0, 255, 187);
+
+    /* margin: 20px; */
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+transition: all 0.35s;
+}
+
+p{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: ;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.main_content{
+    border:2px solid blue;
+    padding: 30px;
+
+}
+
+.container{
+    border: 2px solid blue;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footer_{
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+
+}
+
+
+.immagine{
+    width: 35%;
+    max-width: 400px;
+    display: flex;
+    
+}
+
